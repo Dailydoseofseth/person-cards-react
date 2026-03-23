@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   const [showBg, setShowBg] = useState(false);
-  const [showCards, setShowCards] = useState(true);
+  const [showCards, setShowCards] = useState(false);
 
   function handleClick() {
     setShowBg(!showBg);
