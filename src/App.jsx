@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "./components/Button";
 import PersonCard from "./components/PersonCard";
+import StylePoints from "./components/StylePoints";
 import "./App.css";
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
               fontSize: "2rem",
             }}
           />
+          <StylePoints name="Seth" />
           <hr />
           <PersonCard
             name={"Amy"}
@@ -69,6 +71,7 @@ function App() {
               margin: "1rem",
             }}
           />
+          <StylePoints name="Amy" />
           <hr />
           <PersonCard
             name={"Spider-Man"}
@@ -83,6 +86,7 @@ function App() {
               fontSize: "2rem",
             }}
           />
+          <StylePoints name="Spider-Man" />
         </>
       )}
 
