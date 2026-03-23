@@ -51,7 +51,7 @@ function App() {
             style={{
               border: "2px double #ccc",
               borderRadius: "11px",
-              background: "#d99d",
+              background: "#dddd",
               margin: "1rem",
               fontSize: "2rem",
             }}
@@ -78,7 +78,7 @@ function App() {
             style={{
               border: "2px double #ccc",
               borderRadius: "11px",
-              background: "#dddd",
+              background: "#d99d",
               margin: "1rem",
               fontSize: "2rem",
             }}
